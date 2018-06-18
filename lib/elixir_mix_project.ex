@@ -15,6 +15,7 @@ defmodule ElixirMixProject do
   def hello do
     :world
   end
+<<<<<<< HEAD
 
   def power(a, n) when (n > 0) do a * power(a, n - 1) end 
   def power(_a, _) do 1 end
@@ -50,3 +51,6 @@ defmodule ElixirMixProject do
   def onpCalc([a | list],[]) do onpCalc(list,[a]) end
   def onpCalc([a | list],[l | tail]) do onpCalc(list,[a]++[l|tail]) end
 end
+=======
+end
+>>>>>>> 2447f6a1a5e3170b266f6fd8d52cdba86d4c4096
